@@ -18,9 +18,9 @@ console.warn("store data",store)
 
 
 ReactDOM.render(
-  
+  <Provider store={}>
   <App />
-  ,
+  </Provider>,
   document.getElementById('root')
 );
 

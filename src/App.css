@@ -36,3 +36,64 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* */
+
+.btn-wrapper button {
+  background-color: red;
+  border: 0px;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  box-shadow: #333 0px 1px 5px;
+}
+
+.img-wrapper img{
+  width: 100px;
+  margin-top: -20px;
+}
+.cart-wrapper{
+  height: 132px;
+    width: 500px;
+    border: 1px solid #ccc;
+    margin-left: 10%;
+}
+
+.item {
+  float: left;
+  display: inline-block;
+  width: 150px;
+  padding: 20px;
+  height: 70px;
+}
+
+.add-to-cart img{
+  width: 80px;
+    position: absolute;
+    right: 1%;
+    top: 1%;
+}
+
+button.remove-to-cart {
+  width: 130px;
+  position: relative;
+  top: 4px;
+  background-color: darkcyan;
+}
+.item-count {
+padding: 4px;
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+}
+
+.selected {
+  background-color: red;
+}
